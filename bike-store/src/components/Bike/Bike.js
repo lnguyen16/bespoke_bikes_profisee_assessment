@@ -2,6 +2,7 @@ import { Button } from '@mui/material';
 import React from 'react'
 import "./Bike.css";
 
+// Code to display the information from the database
 const Bike = (props) => {
     const {_id,name,manufacturer,style,price,saleprice,quantity, commission, image} = props.bike;
   return  ( 
