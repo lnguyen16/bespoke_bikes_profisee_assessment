@@ -10,6 +10,7 @@ They are asking you to design a simple sales tracking application to help track 
 determine each salesperson’s quarterly bonus.
 
 Database Architect:
+Here is a database architecture I did prior to working on the backend!
 ![Acrobat_5bOEwx0bTO](https://user-images.githubusercontent.com/41876727/174995468-5483d24e-d8f2-409d-be22-f188c943e90b.png)
 
 Technology that was used in this project: MongoDB, React, Javascript, Nodemon, Express, Axios, MaterialUI, Postman, HTML, CSS
