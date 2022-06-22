@@ -4,10 +4,12 @@ import axios from 'axios';
 import Bike from './Bike';
 const URL = "http://localhost:5000/bikes";
 
+// Access the database and retrieve the data
 const fetchHandler = async() => {
     return await axios.get(URL).then((res)=> res.data);
 };
 
+// Code to display the bikes from the database
 const Bikes = () => {
     const [bikes, setBikes] = useState();
     useEffect(() => {
