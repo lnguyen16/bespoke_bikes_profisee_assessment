@@ -7,6 +7,7 @@ import Bikes from "./components/Bike/Bikes";
 import Salespeople from "./components/Salespeople";
 import Customers from "./components/Customers";
 
+// Path to the pages throughout the website
 function App() {
   return ( 
   <React.Fragment>
